@@ -5,5 +5,5 @@ This library provides a set of functions that complement Python itertools. These
 
 * Documentation: http://packages.python.org/iterplus/
 * Source: http://github.com/bebraw/iterplus/
-* Issue Tracker: http://github.com/bebraw/pynu/issues/
+* Issue Tracker: http://github.com/bebraw/iterplus/issues/
 
