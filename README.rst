@@ -14,10 +14,8 @@ Scan
 ^^^^
 
     fibo = scan(0, 1, lambda a, b: a + b)
-    pos_list = scan(0, 1)
-    neg_list = scan(1, 0)
 
-"scan" returns an iterator. Note how simple it's to define series such as Fibonacci's using it.
+"scan" returns an iterator. Note how simple it's to define series such as Fibonacci's using it. In case an explicit rule is not provided, it infers one automatically (ie. 1,2,3,...).
 
 Sliceable
 ^^^^^^^^^
