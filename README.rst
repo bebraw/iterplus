@@ -1,5 +1,5 @@
 iterplus - itertools_ extended
-=============================
+==============================
 
 This library provides a set of functions that complement Python itertools. These include means to access iterable content via slicing, scan generator (easy series) and chainable wrapper (ie. a.map(...).filter(...)).
 
