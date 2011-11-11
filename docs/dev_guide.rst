@@ -5,7 +5,3 @@ As you might have figured out, the library relies quite heavily on Sphinx docume
 
 It is possible to generate the documentation via setup.py, though. You can do this simply via "build_sphinx" parameter (ie. setup.py build_sphinx). There's also an untested "upload_sphinx" that's supposed to upload the project documentation to the right place.
 
-Especially "sliceable" could use some extra work. It might be nice to use some form of caching or some other minor optimizations (esp. for slice!) there. Current implementation is somewhat simplistic.
-
-"chainable" probably should be expanded as well and made work better with iterators.
-
