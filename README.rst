@@ -1,4 +1,4 @@
-iterplus - itertools extended
+iterplus - itertools_ extended
 =============================
 
 This library provides a set of functions that complement Python itertools. These include means to access iterable content via slicing, scan generator (easy series) and chainable wrapper (ie. a.map(...).filter(...)).
@@ -30,4 +30,6 @@ Chainable
     chainable([1, 2, 3]).map(lambda x: x * 2).filter(lambda x: x > 3).val() == [4, 6]
 
 "chainable" makes it possible to use basic functional utilities (map, filter, reduce) using a chaining syntax.
+
+.. _itertools: http://docs.python.org/library/itertools.html
 
