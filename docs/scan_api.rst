@@ -30,7 +30,7 @@ Decremental Scan
     >>> assert neg_list.next() == -8
 
 Constant Scan
-^^^^^^^^^^^^
+^^^^^^^^^^^^^
 
 .. doctest::
 
