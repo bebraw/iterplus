@@ -33,3 +33,8 @@ Chainable
 
 .. _itertools: http://docs.python.org/library/itertools.html
 
+License
+-------
+
+iterplus is available under MIT license. See LICENSE for more details.
+
