@@ -7,5 +7,5 @@ from sliceable import sliceable
 from scan import scan
 
 __author__ = 'Juho Vepsäläinen'
-__version__ = '0.2.0-dev'
+__version__ = '0.2.5'
 
