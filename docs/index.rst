@@ -14,12 +14,12 @@ iterplus - utilities that complement itertools
 
 
 .. module:: iterplus
-   :synopsis: Utilities that complement itertools
+    :synopsis: Utilities that complement itertools
 
 Introduction
 ------------
 
-iterplus provides a set of utilities that complement itertools <http://docs.python.org/library/itertools.html>.
+.. include:: ../README.rst
 
 API Documentation
 -----------------
