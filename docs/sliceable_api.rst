@@ -14,11 +14,17 @@ Access via Index
 
     >>> pos_list = sliceable(scan(1, 3))
 
-    >>> assert pos_list[0] == 1
-    >>> assert pos_list[3] == 7
+    >>> pos_list[0]
+    1
 
-    >>> assert pos_list.next() == 1
-    >>> assert pos_list[0] == 1
+    >>> pos_list[3]
+    7
+
+    >>> pos_list.next()
+    1
+
+    >>> pos_list[0]
+    1
 
 Slice
 ^^^^^
@@ -27,7 +33,8 @@ Slice
 
     >>> pos_list = sliceable(scan(1, 3))
 
-    >>> assert pos_list[1:3] == [3, 5]
+    >>> pos_list[1:3]
+    [3, 5]
 
 Slice with Stride
 ^^^^^^^^^^^^^^^^^
@@ -36,5 +43,6 @@ Slice with Stride
 
     >>> pos_list = sliceable(scan(1, 3))
 
-    >>> assert pos_list[1:4:2] == [3, 7]
+    >>> pos_list[1:4:2]
+    [3, 7]
 

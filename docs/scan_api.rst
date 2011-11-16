@@ -14,9 +14,14 @@ Incremental Scan
 
     >>> pos_list = scan(1, 2) # returns a generator
 
-    >>> assert pos_list.next() == 1
-    >>> assert pos_list.next() == 2
-    >>> assert pos_list.next() == 3
+    >>> pos_list.next()
+    1
+
+    >>> pos_list.next()
+    2
+
+    >>> pos_list.next()
+    3
 
 Decremental Scan
 ^^^^^^^^^^^^^^^^
@@ -25,9 +30,14 @@ Decremental Scan
 
     >>> neg_list = scan(-2, -5)
 
-    >>> assert neg_list.next() == -2
-    >>> assert neg_list.next() == -5
-    >>> assert neg_list.next() == -8
+    >>> neg_list.next()
+    -2
+
+    >>> neg_list.next()
+    -5
+
+    >>> neg_list.next()
+    -8
 
 Constant Scan
 ^^^^^^^^^^^^^
@@ -36,9 +46,14 @@ Constant Scan
 
     >>> c_list = scan(7, 7)
 
-    >>> assert c_list.next() == 7
-    >>> assert c_list.next() == 7
-    >>> assert c_list.next() == 7
+    >>> c_list.next()
+    7
+
+    >>> c_list.next()
+    7
+
+    >>> c_list.next()
+    7
 
 Custom Rule
 ^^^^^^^^^^^
@@ -47,8 +62,15 @@ Custom Rule
 
     >>> fibo = scan(0, 1, lambda a, b: a + b)
 
-    >>> assert fibo.next() == 0
-    >>> assert fibo.next() == 1
-    >>> assert fibo.next() == 1
-    >>> assert fibo.next() == 2
+    >>> fibo.next()
+    0
+
+    >>> fibo.next()
+    1
+
+    >>> fibo.next()
+    1
+
+    >>> fibo.next()
+    2
 

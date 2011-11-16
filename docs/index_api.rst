@@ -14,9 +14,14 @@ index
 
     >>> items = [10, 27, 4, 340, 3]
 
-    >>> assert index(lambda a: a < 12, items) == 0
-    >>> assert index(lambda a: a > 20, items) == 1
-    >>> assert index(lambda a: a < 9, items) == 2
+    >>> index(lambda a: a < 12, items)
+    0
+
+    >>> index(lambda a: a > 20, items)
+    1
+
+    >>> index(lambda a: a < 9, items)
+    2
 
     >>> index(lambda a: a > 500, items)
     Traceback (most recent call last):
@@ -30,9 +35,14 @@ rindex
 
     >>> items = [10, 27, 4, 340, 3]
 
-    >>> assert rindex(lambda a: a < 12, items) == 4
-    >>> assert rindex(lambda a: a > 20, items) == 3
-    >>> assert rindex(lambda a: a < 9, items) == 4
+    >>> rindex(lambda a: a < 12, items)
+    4
+
+    >>> rindex(lambda a: a > 20, items)
+    3
+
+    >>> rindex(lambda a: a < 9, items)
+    4
 
     >>> rindex(lambda a: a > 500, items)
     Traceback (most recent call last):
