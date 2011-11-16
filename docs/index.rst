@@ -30,6 +30,7 @@ API Documentation
     scan_api
     sliceable_api
     chainable_api
+    index_api
 
 User Documentation
 ------------------
