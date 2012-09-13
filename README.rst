@@ -44,7 +44,7 @@ Index
     index(lambda a: a > 4, [3, 10, 8]) == 1    
     rindex(lambda a: a < 5, [3, 10, 8]) == 0
 
-"index" and "rindex" make it possible to find the first or the last item of a sequence matching to a give rule.
+"index" and "rindex" make it possible to find the first or the last item of a sequence matching to a given rule.
 
 .. _itertools: http://docs.python.org/library/itertools.html
 
